@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>"VIP"</title>
+    <script language ="JavaScript" type="text/javascript " src="prototype.js"></script>
+    <script language ="JavaScript" type="text/javascript " src="effect.js"></script>
+    <style type="text/css">
+        body{
+            background-image: url("./img/0.gif");
+            background-size: 100% 100%;
+            height: 100%;
+        }
+
+        p{
+            text-align: center;
+            font-size: 80px;
+            font-family:隶书;
+        }
+    </style>
+</head>
+<body>
+<p style="color: palevioletred">"VIP资料"<hr></p>
+<input type="button" value="Fade Out"
+       onClick="new Effect.Fade($('test'))">
+<input type="button" value="Fade In"
+       onClick="new Effect.Appear($('test'))">
+<input type="button" value="Slide Up"
+       onClick="new Effect.SlideUp($('test'))">
+<input type="button" value="Slide Down"
+       onClick="new Effect.SlideDown($('test'))">
+<input type="button" value="Highlight"
+       onClick="new Effect.Highlight($('test'))">
+<input type="button" value="Shake"
+       onClick="new Effect.Shake($('test'))"><br><br>
+<div id="test" style="font-family: 隶书;font-size:25px;color:lightseagreen  ">
+    <hr>
+    <h1>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;欢迎
+        <table border="3">
+            <tr>
+                <td >Name</td>
+                <td>Sex</td>
+                <td>Age</td>
+                <td>Adress</td>
+                <td>Work</td>
+                <td>Salary</td>
+                <td>Tel</td>
+            </tr>
+            <tr>
+                <td>哎唷哥哥</td>
+                <td>男</td>
+                <td>18</td>
+                <td>中国</td>
+                <td>学生</td>
+                <td>0</td>
+                <td>15684523189</td>
+            </tr>
+            <tr>
+                <td>sb欣♥</td>
+                <td>女</td>
+                <td>18</td>
+                <td>中国</td>
+                <td>学生</td>
+                <td>0</td>
+                <td>18846154924</td>
+            </tr>
+        </table>
+        <br><hr>
+    </h1>
+</div>
+</body>
+</html>
